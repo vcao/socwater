@@ -1,0 +1,19 @@
+#menu {
+  position: relative;
+  z-index: 999;
+  display: block !important;
+  background: #202f4e; }
+  #menu li {
+    background: #202f4e;
+    display: inline-block; }
+    #menu li a {
+      height: 29px !important;
+      padding: 5px !important; }
+
+.header {
+  background-image: url("/assets/img/bkg-festival-tint.jpg") !important;
+  background-size: cover;
+  background-position: 50% 0;
+  z-index: 1;
+  position: relative;
+  top: 40px !important; }

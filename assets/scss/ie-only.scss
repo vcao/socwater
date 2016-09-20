@@ -1,0 +1,27 @@
+$primary-color: #202f4e;
+$secondary-color: #8fbfd5;
+
+#menu {
+	position: relative;
+	z-index:999;
+	display: block !important;
+	background: $primary-color;
+	li {
+		background: $primary-color;
+		display: inline-block;
+
+		a {
+			height: 29px !important;
+			padding: 5px !important;
+		}
+	}
+}
+
+.header {
+	background-image: url('/assets/img/bkg-festival-tint.jpg') !important;
+	background-size: cover;
+	background-position: 50% 0;
+	z-index: 1;
+	position: relative;
+	top: 40px !important;
+}
